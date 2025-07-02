@@ -1,0 +1,67 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #ffffff;
+    color: #0b2545;
+    line-height: 1.6;
+}
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+header {
+    text-align: center;
+    background: #0b2545;
+    color: white;
+    padding: 2rem 0;
+    border-radius: 8px;
+}
+section {
+    margin-top: 2rem;
+}
+h1, h2 {
+    color: #0b2545;
+}
+a {
+    color: #007b5e;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.cta {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-top: 2rem;
+    text-align: center;
+}
+.calendly-btn {
+    background: #0b2545;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+blockquote {
+    background: #f9f9f9;
+    border-left: 5px solid #ccc;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    font-style: italic;
+}
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.white-text {
+    color: white !important;
+}
