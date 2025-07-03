@@ -1,0 +1,236 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: #fff;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #000;
+  z-index: 999;
+  padding: 1rem 0;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.navbar a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ccc;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.snap-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.snap-section {
+  scroll-snap-align: start;
+  height: 100vh;
+  padding: 6rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.no-bg {
+  background: #000;
+}
+.bg1 {
+  background-image: url('https://images.unsplash.com/photo-1532619675605-1f6bdb5d5d33?auto=format&fit=crop&w=1400&q=80');
+}
+.bg2 {
+  background-image: url('https://images.unsplash.com/photo-1600180758890-6c6bbf1fe097?auto=format&fit=crop&w=1400&q=80');
+}
+.bg3 {
+  background-image: url('https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1400&q=80');
+}
+h1.highlight {
+  font-size: 2.5rem;
+  background: linear-gradient(to right, #d4af37, #0b2545);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hero-headline {
+  font-size: 2.8rem;
+  margin: 1.5rem 0 0.5rem;
+}
+.subheadline {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: #bbb;
+}
+p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-top: 1rem;
+}
+iframe {
+  margin-top: 2rem;
+  border-radius: 8px;
+  border: none;
+}
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #999;
+  padding: 2rem 1rem;
+}
+.hero-logo {
+  width: 200px;
+  height: auto;
+}
+.scroll-down {
+  font-size: 2rem;
+  color: #666;
+  margin-top: 2rem;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+.darker-bg {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+.pricing-block {
+  background: rgba(20, 20, 20, 0.75);
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: left;
+}
+.pricing-block h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.pricing-block h2 span {
+  color: #d4af37;
+}
+.pricing-block ul {
+  list-style: none;
+  padding: 0;
+  color: #eee;
+}
+.pricing-block ul li {
+  margin: 0.5rem 0;
+}
+.pricing-note {
+  margin-top: 1.5rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.darkened {
+  background: #111 !important;
+}
+.pricing-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 700px;
+  color: #fff;
+}
+.pricing-card h2 {
+  font-size: 1.75rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.pricing-card h2 span {
+  color: #d4af37;
+}
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+}
+.pricing-card ul li {
+  margin-bottom: 0.5rem;
+}
+.pricing-note {
+  margin-top: 1.2rem;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #bbb;
+}
+.retention-card {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #333;
+}
+.retention-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+.retention-card p {
+  font-size: 1.05rem;
+  color: #bbb;
+}
+
+.legal-page {
+  padding: 4rem 2rem;
+  max-width: 700px;
+  margin: auto;
+  color: #fff;
+}
+.legal-page h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.legal-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.footer-nav {
+  margin-top: 1rem;
+}
+.footer-nav a {
+  color: #999;
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: #fff;
+}
+
+.site-footer {
+  background-color: #000;
+  text-align: center;
+  color: #999;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+}
+.site-footer a {
+  color: #bbb;
+  margin: 0 0.75rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #fff;
+}
+.footer-links {
+  margin-top: 1rem;
+}
